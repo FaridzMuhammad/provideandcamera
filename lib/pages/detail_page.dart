@@ -11,7 +11,6 @@ class DetailPage extends StatelessWidget {
       ),
       body: Consumer<ItemProvider>(
         builder: (context, itemProvider, child) {
-          // Mendapatkan item yang dipilih dari provider
           final selectedItem = itemProvider.items[itemProvider.selectedIndex];
 
           return Padding(

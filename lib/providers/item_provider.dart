@@ -7,7 +7,6 @@ class ItemProvider with ChangeNotifier {
     Item("Ayan"),
     Item("Rahmat"),
     Item("Mulyadi")
-    // Tambahkan item sesuai kebutuhan
   ];
 
   int _selectedIndex = -1;
